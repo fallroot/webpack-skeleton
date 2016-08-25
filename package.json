@@ -1,0 +1,32 @@
+{
+  "name": "@fallroot/webpack-skeleton",
+  "version": "0.0.1",
+  "description": "Webpack Skeleton for JavaScript Library Development",
+  "author": "CK Moon <fallroot@gmail.com>",
+  "scripts": {
+    "build": "webpack -p",
+    "test": "webpack-dev-server --config ./test/webpack.config.js --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fallroot/webpack-skeleton"
+  },
+  "bugs": {
+    "url": "https://github.com/fallroot/webpack-skeleton/issues"
+  },
+  "keywords": [
+    "webpack",
+    "skeleton",
+    "development"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "mocha": "^3.0.2",
+    "mocha-loader": "^0.7.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.0"
+  }
+}
